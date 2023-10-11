@@ -1,0 +1,39 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "esno ./h3-entry.ts",
+    "build": "vite build",
+    "preview": "NODE_ENV=production esno ./h3-entry.ts",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@types/serve-static": "^1.15.3",
+    "eslint-plugin-solid": "^0.13.0",
+    "tailwindcss": "^3.3.3",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  },
+  "dependencies": {
+    "@hattip/polyfills": "^0.0.35",
+    "h3": "^1.8.2",
+    "serve-static": "^1.15.0",
+    "esno": "^0.17.0",
+    "vike": "^0.4.143",
+    "vite": "^4.4.11",
+    "cross-fetch": "^4.0.0",
+    "solid-js": "^1.7.12",
+    "vike-solid": "^0.2.1",
+    "telefunc": "^0.1.62",
+    "vite-plugin-vercel": "^0.3.6",
+    "@vite-plugin-vercel/vike": "^0.4.1"
+  }
+}
